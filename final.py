@@ -1,0 +1,17 @@
+username = input("Имя пользователя ")
+title = input("Заголовок заметки 1 ")
+title2 = input("Заголовок заметки 2 ")
+title3 = input("Заголовок заметки 3 ")
+content = input("Описание заметки ")
+status = input("Статус заметки ")
+created_date = input("Дата создания заметки: ")
+issue_date = input("Дата истечения заметки: ")
+note = [username, content, status,
+created_date, issue_date, [title, title2, title3]]
+print ('имя пользователя:', username)
+print ("Заголовок заметки:", [title, title2, title3])
+print ("описание заметки:", content)
+print ("статус заметки:", status)
+print ("Дата создания заметки: ", created_date[0:5])
+print ("Дата истечения заметки:", issue_date[0:5])
+print (note)
